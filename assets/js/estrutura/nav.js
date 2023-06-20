@@ -5,9 +5,17 @@
 $(function() {
   var lang = window.location.pathname.split('/')[1];
   var caminho = window.location.pathname.split('/').slice(2).join('/');
+  if (lang !== 'pt') {
+    caminho = window.location.pathname.split('/').slice(1).join('/');
+  }
 
+  if (lang == 'pt') {
   var paginaEn = '/' + (caminho ? caminho : '');
+  var paginaPt = '#'
+  } else {
+  var paginaEn = '#'
   var paginaPt = '/pt' + (caminho ? '/' + caminho : '');
+  }
 
   $('#lang_en').attr('href', paginaEn);
   $('#lang_pt').attr('href', paginaPt);
