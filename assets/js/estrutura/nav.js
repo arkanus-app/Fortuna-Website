@@ -49,11 +49,3 @@ if (userLang != lang) {
   }
 
 }
-//
-VanillaTilt.init(document.querySelector(".glassmorphic-card"), {
-		max: 20,
-		speed: 200,
-		glare: true,
-		"max-glare": 0.5,
-    scale: 1.1
-	});
