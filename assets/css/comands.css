@@ -1,0 +1,57 @@
+a:hover {
+  text-decoration: none;
+}
+
+.list-sidebar li a {
+  padding: 0.625rem 2rem;
+  color: #817f7e;
+  font-size: 0.875rem;
+  height: 2.5rem;
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
+  text-decoration: none;
+}
+
+.list-sidebar {
+  padding: 0;
+}
+
+.list-sidebar li a.active, .list-sidebar li a:hover {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.list-sidebar li a.active:before, .list-sidebar li a:hover:before {
+  background: var(--primary);
+}
+
+.list-sidebar-link {
+  height: 2.5rem;
+}
+
+@media (max-width: 755px) {
+  .list-sidebar li a {
+    font-size: 0;
+    padding: 0.625rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 755px) {
+  .sidebar {
+    width: 3.125rem;
+    z-index: 9;
+  }
+}
+
+@media (max-width: 755px) {
+  .list-sidebar {
+    margin-bottom: 0;
+  }
+}
+
+.list_icons {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
