@@ -17,6 +17,8 @@ $(function() {
 
   $('#lang_en').attr('href', paginaEn);
   $('#lang_pt').attr('href', paginaPt);
+  $('#lang_pt-1').attr('href', paginaPt);
+  $('#lang_pt-1').attr('href', paginaPt);
 });
 
 
