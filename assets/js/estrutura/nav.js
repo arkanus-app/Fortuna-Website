@@ -9,12 +9,6 @@ $(function() {
   var paginaEn = '/' + (caminho ? caminho + '/' : '');
   var paginaPt = '/pt' + (caminho ? '/' + caminho : '');
 
-  if (lang === 'pt') {
-    paginaEn = (caminho ? '/' + caminho : '/');
-  } else {
-    paginaPt = (caminho ? '/pt/' + caminho : '/pt/');
-  }
-
   $('#lang_en').attr('href', paginaEn);
   $('#lang_pt').attr('href', paginaPt);
   $('#lang_pt-1').attr('href', paginaPt);
