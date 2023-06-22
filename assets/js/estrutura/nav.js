@@ -6,7 +6,7 @@ $(function() {
   var lang = window.location.pathname.split('/')[1];
   var caminho = window.location.pathname.split('/').slice(2).join('/');
 
-  var paginaEn = '/' + (caminho ? caminho + '/' : '');
+  var paginaEn = '/' + (caminho ? caminho : '');
   var paginaPt = '/pt' + (caminho ? '/' + caminho : '');
 
   $('#lang_en').attr('href', paginaEn);
