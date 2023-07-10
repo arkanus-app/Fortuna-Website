@@ -70,6 +70,9 @@
         <loc>https://rpg.arkanus.app/pt/sistemas/dnd.html</loc>
     </url>
     <url>
+        <loc>https://rpg.arkanus.app/pt/sistemas/gaia.html</loc>
+    </url>
+    <url>
         <loc>https://rpg.arkanus.app/pt/sistemas/ordem.html</loc>
     </url>
     <url>
@@ -95,8 +98,5 @@
     </url>
     <url>
         <loc>https://rpg.arkanus.app/team/fortuna.html</loc>
-    </url>
-    <url>
-        <loc>https://rpg.arkanus.app/</loc>
     </url>
 </urlset>
