@@ -1,1 +1,1 @@
-{"short_name":"MK","name":"Mini Kraken","icons":[],"start_url":"index.html","background_color":"#f80752","theme_color":"#f80752","display":"minimal-ui"}
+{"short_name":"MK","name":"Mini Kraken","icons":[{"src":"https://rpg.arkanus.app/assets/img/geral/marca/logo_red.svg","type":"image/svg+xml","sizes":"147x150","purpose":"any maskable"},{"src":"https://rpg.arkanus.app/assets/img/geral/marca/logo_red.svg","type":"image/svg+xml","sizes":"147x150","purpose":"any maskable"}],"start_url":"index.html","background_color":"#f80752","theme_color":"#f80752","display":"minimal-ui"}

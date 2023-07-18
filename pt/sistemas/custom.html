@@ -167,12 +167,20 @@
                 <div style="background: url(&quot;../../assets/img/geral/background/car_customizer.webp&quot;) bottom / cover;border-radius: 8px;padding-left: 2vw;padding-right: 2vw;margin-bottom: 1vw;padding-top: 4vw;padding-bottom: 8vw;filter: blur(0px);backdrop-filter: opacity(1);"><span class="badge bg-primary text-light" style="margin-right: 5px;">Homebrew</span><span class="badge bg-primary text-light" style="margin-right: 5px;">Personalização</span><span class="badge bg-primary text-light" style="margin-right: 5px;">RPG da Farofa da GKAY?</span><span class="badge bg-primary text-light" style="margin-right: 5px;">Jogue RPG de Mesa no Discord</span>
                     <h1 class="text-light">Sistemas Personalizados no Mini Kraken Bot para RPG de Mesa no discord.</h1>
                 </div>
-                <h4 class="text-light">Introdução</h4>
+                <h2 class="text-light">Introdução</h2>
                 <article>
                     <p class="text-light">Poucas pessoas sabem, porém é possível ter seu próprio sistema personalizado com o Mini Kraken, este aqui é um guia pratico de como criar e adicionar o seu sistema Homebrew ao bot, e ter todos os recursos de fichas inteligentes sobe medida para sua mesa, de maneira facil, rápida e intuitiva.</p>
                 </article>
-                <h4 class="text-light">Mecânicas do Sistema</h4>
-                <p class="text-light">A mecânica do jogo é baseada em um sistema de regras atualizado que combina simplicidade e profundidade estratégica. Os jogadores enfrentam desafios emocionantes, resolvem enigmas intrigantes e combatem perigosas criaturas em batalhas táticas. A progressão dos personagens permite que eles adquiram habilidades e poderes especiais, tornando-se verdadeiros heróis lendários.<br><br>Com seu legado duradouro e uma base de fãs dedicada, Tormenta20 continua a cativar jogadores de todas as idades e níveis de experiência. Seja você um veterano dos jogos de RPG ou um iniciante em busca de uma grande aventura, Tormenta20 oferece uma porta de entrada para um mundo fantástico repleto de heróis, magia e perigos iminentes.<br><br>Então prepare-se para embarcar em uma jornada inesquecível com Tormenta20. Escolha sua raça, forje seu destino e enfrente desafios épicos em um mundo de fantasia que aguarda por sua coragem. Reúna seus amigos, pegue seus dados e embarque nessa aventura emocionante. O destino de Arton está em suas mãos!</p>
+                <h2 class="text-light">Alerta! Papo para Nerds</h2>
+                <p class="text-light">Os sistemas do Mini Kraken usam arquivos JSON para criar e manipular o funcionamento de um sistema, portanto para criar um novo sistemas é necessário escrever um JSON do mesmo e o guia a seguir vai explicar um pouco do seu funcionamento e estrutura para permitir que crie seus próprios sistemas de RPG nele.</p>
+                <h4 class="text-light">i18n</h4>
+                <p class="text-light">É onde fica todas as informações de tradução do seu sistema, ou seja, nomes, embeds e exibição das coisas, a famosa perfumaria do sistema.</p>
+                <h4 class="text-light">Niveis_pericias</h4>
+                <p class="text-light">Onde você registra os emojis e os ids de cada um dos níveis de perícias</p>
+                <h4 class="text-light">Status:</h4>
+                <p class="text-light">Mesma coisa, só que pros status</p>
+                <h4 class="text-light">Atributos:</h4>
+                <p class="text-light">atributos: registra o id, o emoji e os dados<br>esses dados ficam numa array, que tem basicamente um formato de if-else<br>num sistema simples como d&amp;d, só vai um {"dice": "d20+(&lt;value_0&gt;)"} dentro da array<br>onde d20+(&lt;value_0&gt;) é o dado a ser rolado.<br><br><code class="text-primary">value_num<br>abs_num<br>math_expr</code><br></p>
             </div>
         </div>
     </section>
