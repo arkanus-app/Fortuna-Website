@@ -3,9 +3,9 @@
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
 xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://rpg.arkanus.app</loc>
+        <loc>https://rpg.arkanus.app/</loc>
         <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/"/>
     </url>
     <url>
         <loc>https://rpg.arkanus.app/sitemap.html</loc>
