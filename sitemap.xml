@@ -13,9 +13,9 @@ xmlns:xhtml="http://www.w3.org/1999/xhtml">
         <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/sitemap.html"/>
     </url>
     <url>
-        <loc>https://rpg.arkanus.app/team.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/team.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/team.html"/>
+        <loc>https://arkanus.app/team</loc>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://arkanus.app/team"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://arkanus.app/team"/>
     </url>
     <url>
         <loc>https://rpg.arkanus.app/docs/changelog.html</loc>
