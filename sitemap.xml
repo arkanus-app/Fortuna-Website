@@ -1,93 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://rpg.arkanus.app/</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/"/>
+        <loc>https://rpg.arkanus.app/NEW/componentes/blog/blog-post.html</loc>
     </url>
     <url>
-        <loc>https://rpg.arkanus.app/sitemap.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/sitemap.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/sitemap.html"/>
+        <loc>https://rpg.arkanus.app/NEW/componentes/erros/404.html</loc>
     </url>
     <url>
-        <loc>https://arkanus.app/team</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://arkanus.app/team"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://arkanus.app/team"/>
+        <loc>https://rpg.arkanus.app/NEW/componentes/Footer.html</loc>
     </url>
     <url>
-        <loc>https://rpg.arkanus.app/docs/changelog.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/docs/changelog.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/docs/changelog.html"/>
+        <loc>https://rpg.arkanus.app/NEW/componentes/Navbar.html</loc>
     </url>
     <url>
-        <loc>https://rpg.arkanus.app/docs/comands.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/docs/comands.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/docs/comands.html"/>
+        <loc>https://rpg.arkanus.app/NEW/views/sitemap.html</loc>
     </url>
     <url>
-        <loc>https://rpg.arkanus.app/docs/dices.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/docs/dices.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/docs/dices.html"/>
+        <loc>https://rpg.arkanus.app/posts/changelog.html</loc>
     </url>
     <url>
-        <loc>https://rpg.arkanus.app/docs/tos.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/docs/tos.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/docs/tos.html"/>
+        <loc>https://rpg.arkanus.app/posts/comands.html</loc>
     </url>
     <url>
-        <loc>https://rpg.arkanus.app/docs/pp.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/docs/pp.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/docs/pp.html"/>
+        <loc>https://rpg.arkanus.app/posts/dices.html</loc>
+    </url>
+    <url>
+        <loc>https://rpg.arkanus.app/posts/privacy.html</loc>
+    </url>
+    <url>
+        <loc>https://rpg.arkanus.app/posts/tos.html</loc>
+    </url>
+    <url>
+        <loc>https://rpg.arkanus.app/systems/3DET.html</loc>
+    </url>
+    <url>
+        <loc>https://rpg.arkanus.app/systems/carbon.html</loc>
+    </url>
+    <url>
+        <loc>https://rpg.arkanus.app/systems/dnd.html</loc>
+    </url>
+    <url>
+        <loc>https://rpg.arkanus.app/systems/gaia.html</loc>
+    </url>
+    <url>
+        <loc>https://rpg.arkanus.app/systems/ordem.html</loc>
+    </url>
+    <url>
+        <loc>https://rpg.arkanus.app/systems/tormenta.html</loc>
     </url>
     <url>
         <loc>https://rpg.arkanus.app/tools/baralho.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/tools/baralho.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/tools/baralho.html"/>
     </url>
     <url>
         <loc>https://rpg.arkanus.app/tools/names.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/tools/names.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/tools/names.html"/>
     </url>
     <url>
         <loc>https://rpg.arkanus.app/tools/tarot.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/tools/tarot.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/tools/tarot.html"/>
     </url>
     <url>
-        <loc>https://rpg.arkanus.app/sistemas/dnd.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/sistemas/dnd.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/sistemas/dnd.html"/>
-    </url>
-    <url>
-        <loc>https://rpg.arkanus.app/sistemas/ordem.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/sistemas/ordem.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/sistemas/ordem.html"/>
-    </url>
-    <url>
-        <loc>https://rpg.arkanus.app/sistemas/tormenta.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/sistemas/tormenta.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/sistemas/tormenta.html"/>
-    </url>
-    <url>
-        <loc>https://rpg.arkanus.app/sistemas/carbon.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/sistemas/carbon.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/sistemas/carbon.html"/>
-    </url>
-    <url>
-        <loc>https://rpg.arkanus.app/sistemas/gaia.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/sistemas/gaia.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/sistemas/gaia.html"/>
-    </url>
-    <url>
-        <loc>https://rpg.arkanus.app/sistemas/custom.html</loc>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://rpg.arkanus.app/pt/sistemas/custom.html"/>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://rpg.arkanus.app/sistemas/custom.html"/>
-    </url>
-    <url>
-        <loc>https://rpg.arkanus.app/team/fortuna.html</loc>
+        <loc>https://rpg.arkanus.app/</loc>
     </url>
 </urlset>

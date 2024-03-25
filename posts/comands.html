@@ -1,19 +1,12 @@
 <!DOCTYPE html>
-<html data-bs-theme="dark" style="--bs-body-bg: #0f1118;" data-bs-spy="scroll" data-bs-target="#navcol-1" data-bs-smooth-scroll="true" lang="pt">
+<html data-bs-theme="dark" lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Gerador de Cartas de Tarot</title>
-    <link rel="canonical" href="https://rpg.arkanus.app/tools/tarot.html">
-    <meta property="og:url" content="https://rpg.arkanus.app/tools/tarot.html">
-    <meta name="twitter:title" content="Gerador de Cartas de Baralho">
-    <meta property="og:description" content="Ferramenta criada para auxiliar escritores, jogadores de RPG e gamers em geral na escolha de nomes para seus personagens. Com uma base de dados vasta e diversificada, apresenta opções para nomear seus personagens.">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="https://rpg.arkanus.app/assets/img/geral/blobs/names_generate.webp">
-    <meta name="twitter:description" content="Ferramenta criada para auxiliar escritores, jogadores de RPG e gamers em geral na escolha de nomes para seus personagens. Com uma base de dados vasta e diversificada, apresenta opções para nomear seus personagens.">
-    <meta property="og:title" content="Gerador de Cartas de Baralho">
-    <meta name="description" content="Ferramenta criada para auxiliar escritores, jogadores de RPG e gamers em geral no desenvolvimento de suas aventuras.">
+    <title>UnaV5</title>
+    <link rel="canonical" href="https://rpg.arkanus.app/posts/comands.html">
+    <meta property="og:url" content="https://rpg.arkanus.app/posts/comands.html">
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../assets/img/geral/marca/icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/geral/marca/icon/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/geral/marca/icon/favicon-32x32.png">
@@ -26,7 +19,7 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
-<body class="bg-dark">
+<body>
     <nav class="navbar navbar-expand-lg sticky-top bg-dark shadow">
         <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" href="/"><img class="img-fluid pe-1" src="../assets/img/geral/marca/logo_red.svg" alt="Mini Kraken Bot" width="30px" height="30px"><span class="m-1">Mini Kraken</span></a><button data-bs-toggle="collapse" class="navbar-toggler border-0" data-bs-target="#navcol"><span class="visually-hidden"></span><span class="navbar-toggler-icon text-primary"></span></button>
             <div class="collapse navbar-collapse justify-content-between" id="navcol">
@@ -110,15 +103,22 @@
             </div>
         </div>
     </nav>
-    <section class="justify-content-lg-center pt-2">
-        <div class="container">
-            <div class="row g-0 d-flex d-md-flex justify-content-center justify-content-md-center">
-                <div class="col-10 col-md-5 order-first order-md-last"><img class="rounded img-fluid w-100 h-100 fit-cover" id="cardshow" src="https://apis.arkanus.app/tarot-card/22.webp" loading="auto" alt="Carta de Tarot aleatoria"></div>
-                <div class="col-12 col-md-7 d-flex justify-content-center align-items-center align-content-center order-last p-4">
-                    <div class="text-white">
-                        <h1 class="fw-bold text-white">Gerador de Cartas Tarot</h1>
-                        <p>Um Gerador de cartas de Tarot aleatórias, que pode de alguma de alguma forma ajudar a fazer alguma campanha ou jogo. </p>
-                        <div class="d-lg-flex d-xl-flex justify-content-lg-start align-items-lg-center justify-content-xl-start align-items-xl-center"><button class="btn btn-primary btn-lg link-light m-2 ms-0" id="cardsrun" type="button">Gerar Carta</button></div>
+    <section>
+        <div class="container-fluid pt-5">
+            <div class="row flex-column justify-content-center align-items-center">
+                <div class="col"></div>
+                <div class="col-9 col-sm-10 col-md-10 col-lg-10 col-xl-11 col-xxl-10 offset-0 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0 d-block">
+                    <div class="row g-0 row-cols-1" id="cards">
+                        <div class="col mt-1 mb-1">
+                            <div class="card border-primary border-1 shadow-none">
+                                <div class="card-body border-secondary">
+                                    <div class="d-flex align-items-center align-content-center flex-wrap">
+                                        <h3 class="text-light d-inline-block pt-2 me-2">/COMMAND</h3><span class="badge rounded-pill bg-primary text-center d-flex d-xxl-flex justify-content-center align-items-center justify-content-xxl-center me-1"><span style="color: rgb(238, 238, 238);">PARAM1</span></span>
+                                    </div>
+                                    <p class="card-text">command description<br><br>🞄 PARAM1 NAME: PARAM DESCRIPTION<br>🞄 PARAM 2 NAME: PARAM DESCRIPTION</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -179,7 +179,6 @@
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="../assets/js/bs-init.js"></script>
-    <script src="../assets/js/geradores/gerar_carta_tarot.js"></script>
     <script src="../assets/js/misc/genCMDs.js"></script>
     <script src="../assets/js/test.js"></script>
 </body>
