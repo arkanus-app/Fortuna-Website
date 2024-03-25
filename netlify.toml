@@ -1,5 +1,4 @@
 [[redirects]]
-from = "https://minikraken.tk/*"
-to = "https://rpg.arkanus.app/:splat"
-status = 301
-force = true
+from = "/*"
+to = "/"
+status = 404
