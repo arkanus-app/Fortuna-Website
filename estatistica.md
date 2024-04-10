@@ -129,10 +129,10 @@ A notação com "e-07" no final é uma forma de escrever [notação científica]
 |max  |9999981.000|   0.9999981|
 
 O dp (desvio padrão) aqui, proporcionalmente, foi de 0.2236064, ou seja, 22,36%. Esse número tem muito a dizer sobre a distribuição.
-![Gráfico do dado injusto com linha de média](https://cdn.discordapp.com/attachments/295368964068999168/1118709866324824104/image.png)
+![Gráfico do dado injusto com linha de média](https://rpg.arkanus.app/static/img/misc/rolagem/imagem1.webp)
 
 A linha vermelha no gráfico representa a média dos valores. Caso a distribuição do gráfico fosse homogênea, ou seja, justa, todas as barras estariam aproximadamente na linha.
-![Gráfico do dado injusto com linha de média e linhas de desvio padrão](https://cdn.discordapp.com/attachments/287089892415242241/1118886983247347744/image.png)
+![Gráfico do dado injusto com linha de média e linhas de desvio padrão](https://rpg.arkanus.app/static/img/misc/rolagem/imagem2.webp)
 Aqui, eu fiz:
 Linha vermelha: média
 Linhas azuis: média ±1 dp
@@ -171,13 +171,13 @@ O p-value é de 1e-6! O que significa que a chance de encontrarmos a distribuiç
 
 #### Ok, mas como esses testes se saem na distribuição real dos dados?
 Bem, vamos lá. A primeira coisa a levar em conta é o número incrivelmente baixo de desvio padrão. O gráfico com a distribuição real ficaria assim:
-![Dados reais](https://cdn.discordapp.com/attachments/287089892415242241/1118918092274270416/image.png)
+![Dados reais](https://rpg.arkanus.app/static/img/misc/rolagem/imagem3.webp)
 
 A proporção desses dados está muito próxima de 0.05, o que é o esperado em uma distribuição não-enviesada. Vamos repetir o mesmo gráfico com os desvios padrões, mas dessa vez para a distribuição real:
-![Dados reais com linhas de distribuição](https://cdn.discordapp.com/attachments/287089892415242241/1118922879011147887/image.png)
+![Dados reais com linhas de distribuição](https://rpg.arkanus.app/static/img/misc/rolagem/imagem4.webp)
 
 As linhas estão tão juntas que não dá nem pra discernir uma da outra. E isso é bom, porque significa que nosso intervalo de confiança é muito pequeno. Vamos dar um zoom nas linhas pra verificar:
-![Dados reais com linhas de distribuição com zoom](https://cdn.discordapp.com/attachments/287089892415242241/1118926999738646678/image.png)
+![Dados reais com linhas de distribuição com zoom](https://rpg.arkanus.app/static/img/misc/rolagem/imagem5.webp)
 
 Eu dei um zoom entre 4,97% e 5,03% para fazer a comparação, uma amplitude de 0,06%. Como não é uma distribuição normal, vamos ter que repetir os testes bootstrap e ranksums:
 ```python
